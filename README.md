@@ -1,11 +1,13 @@
 
 
-first ,download data from http://comet.nefsc.noaa.gov:8080/erddap/tabledap/drifters.html and save it,which name is drifters.csv
+1,download data from http://comet.nefsc.noaa.gov:8080/erddap/tabledap/drifters.html and save it,which name is drifters.csv
 
-second,create a file which name is data
+2,create a file which name is data
 
-third,run segment.py, according to drifter's is and time,we divide it into different segments and save the file of 'data'
+3,run segment.py, according to drifter's is and time,we divide it into different segments and save the file of 'data'
 
-forth,run Drifter_vs_Model use hourly data15.py and calculate separation rate and distance ratio
+4,run Drifter_vs_Model use hourly data15.py and calculate separation rate and distance ratio
 
-finally,run draw.py and draw density map
+5. run roms.py
+
+6,run draw.py and draw density map
